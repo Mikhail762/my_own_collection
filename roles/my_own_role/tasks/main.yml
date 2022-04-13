@@ -1,0 +1,10 @@
+---
+- name: Run module
+  my_own_module:
+    file: "{{ file_name }}"
+    path: "{{ file_path }}"
+    content: "{{ text_content }}"
+  register: testout
+- name: dump test output
+  debug:
+    msg: '{{ testout }}'

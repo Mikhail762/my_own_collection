@@ -1,0 +1,4 @@
+---
+  file_name: "test.file"
+  file_path: "/tmp/my_own_test"
+  text_content: "Hello, World!"
